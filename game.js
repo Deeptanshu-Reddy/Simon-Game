@@ -42,7 +42,7 @@ function checkAnswer(currentLevel){
         setTimeout(function(){
             $("body").removeClass("game-over");
         },200);
-        $("h1").text("Game Over, you lost at Level"+ level +" Press Any Key to Restart");
+        $("h1").text("Game Over, Press Any Key to Restart");
         startOver();
     }
 }
@@ -82,6 +82,7 @@ function  animatePress(currentColor){
         $("."+currentColor).removeClass("pressed");
     },100);
 }
+
 
 
 
